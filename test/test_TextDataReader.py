@@ -3,8 +3,8 @@ import pytest
 from src.Types import DataType
 from src.TextDataReader import TextDataReader
 
-class TestTextDataReader:
 
+class TestTextDataReader:
     @pytest.fixture()
     def file_and_data_content(self) -> tuple[str, DataType]:
         text = "Иванов Константин Дмитриевич\n" + \
