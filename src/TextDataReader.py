@@ -20,4 +20,3 @@ class TextDataReader(DataReader):
                         (subj.strip(), int(score.strip())))
 
         return self.students
-
