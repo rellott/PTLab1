@@ -1,0 +1,41 @@
+# Виртуальное окружение (обычно в папке venv/ или env/)
+venv/
+env/
+
+# Файлы и папки, созданные при выполнении кода
+__pycache__/
+*.pyc
+*.pyo
+__pycache__/
+*.egg-info/
+dist/
+build/
+
+# Игнорировать файлы с настройками
+*.config
+
+# Игнорировать локальные файлы среды разработки
+.vscode/
+.idea/
+
+# Логи и временные файлы
+*.log
+*.tmp
+
+# Версионные файлы и кеш
+*.swp
+.DS_Store
+Thumbs.db
+
+# Файлы секретов
+secrets.ini
+secrets.yaml
+secrets.json
+
+# Зависимости Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
