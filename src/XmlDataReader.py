@@ -6,7 +6,7 @@ import os
 
 class XMLDataReader(DataReader):
     def read(self, path: str) -> dict[str, dict[str, int]]:
-        data_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'data.xml')
+        data_path = os.path.join(os.path.dirname(__file__), '..', 'data', path)
         students = {}
 
         tree = ET.parse(data_path)
@@ -26,5 +26,5 @@ class XMLDataReader(DataReader):
 
 if __name__ == "__main__":
     xml_reader = XMLDataReader()
-    data = xml_reader.read("data/data.xml")
+    data = xml_reader.read("data.xml")
     print(data)
