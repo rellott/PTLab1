@@ -1,5 +1,6 @@
 import numpy as np
 
+
 class StudentRatings:
     def __init__(self, student_data):
         self.student_data = student_data
