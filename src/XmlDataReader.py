@@ -1,16 +1,15 @@
-from typing import Dict
-
 from DataReader import DataReader
 import xml.etree.ElementTree as ET
 
-from Types import DataType
+import os
 
 
 class XMLDataReader(DataReader):
     def read(self, path: str) -> dict[str, dict[str, int]]:
+        data_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'data.xml')
         students = {}
 
-        tree = ET.parse(path)
+        tree = ET.parse(data_path)
         root = tree.getroot()
 
         for student in root:
@@ -25,7 +24,6 @@ class XMLDataReader(DataReader):
         return students
 
 
-# Пример использования:
 if __name__ == "__main__":
     xml_reader = XMLDataReader()
     data = xml_reader.read("data/data.xml")
