@@ -6,7 +6,7 @@ def test_xml_data_reader():
     xml_reader = XMLDataReader()
 
     # Путь к тестовому XML-файлу с данными
-    test_xml_path = "test/test.xml"
+    test_xml_path = "test.xml"
 
     # Ожидаемые результаты чтения данных из XML-файла
     expected_data = {
