@@ -27,3 +27,6 @@
 ## Выводы по работе
 
 После завершения лабораторной работы были получены навыки работы с системой контроля версий Git, разработке программ на языке Python, написании модульных тестов с использованием библиотеки pytest и автоматизации процесса тестирования с помощью GitHub Actions. Такие навыки являются важными для современных разработчиков программного обеспечения и способствуют более эффективной и надежной разработке проектов.
+
+## UML диаграмма
+![UML диаграмма](ZLHDJyCm3BttL_XODFe7AeGcmN4WD7P0GbDasgm4sdGahiJ4zj_9HzSbBKExLAdjv_Vox7Qk2HLrJPqKDMeDTrWNIoGXA_X9038eaJ27U_DSxRRSXPJBv-3h-l0C61DI46Df3Bc271vRwMiAqpwraG1xwAajOCcnvCfHpq2PbtIBz9w39cLHWumGOmEzs4--SxNkHLDNSa.png)
